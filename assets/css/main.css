@@ -1079,3 +1079,25 @@
 		#header nav {
 			padding: 0 1em;
 		} }
+
+#header {
+	z-index: 1;
+}
+
+#header .blog a {
+	-moz-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	border: 1px solid white;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 8px 20px;
+	vertical-align: top;
+}
+
+#header .blog a:hover {
+	background-color: rgba(255, 255, 255, 0.175);
+	color: #fff;
+	font-size: 1.1em;
+}
